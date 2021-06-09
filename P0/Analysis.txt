@@ -1,0 +1,27 @@
+Analysis
+
+Task 0: Time Complexity - O(1)
+
+This algorithm is constant time because has a running time independent of the input size
+
+Task 1: Time Complexity - O(n)
+
+This algorithm is linear time because it has two separate for loops that are dependent
+on the input, each iteration from 1 to n, thus resulting in O(2n) which can be 
+simplified to O(n).
+
+Task 2: Time Complexity - O(n) 
+
+This algorithm is linear time because will grow linearly, in direct proportion to the input data. 
+
+Task 3: Time Complexity - O(nlog(n))
+
+This algorithm time for the bulk of the code will grow linearly, in direct proportion
+to the input data. However, the `sorted` function in part A has a complexity of `O(n log n)`,
+which affects the overall efficiency of the code.
+ 
+Task 4: Time Complexity - O(nlog(n))
+This algorithm time for the bulk of the code will grow linearly, in direct proportion
+to the input data. However, the `sorted` function in  has a complexity of `O(n log n)`,
+which affects the overall efficiency of the code.
+ 
